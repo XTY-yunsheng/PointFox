@@ -3,6 +3,7 @@
  * */
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import Register from '../components/Register'
 import Login from '../components/Login'
 import Work from '../components/Work'
 import StuInfo from '../components/StuInfo'
@@ -13,6 +14,7 @@ Vue.use(VueRouter)
 export default new VueRouter({
     //n个路由
     routes: [
+        { path: '/register', component: Register },
         { path: '/login', component: Login },
         { path: '/work', component: Work },
         { path: '/info', component: StuInfo },

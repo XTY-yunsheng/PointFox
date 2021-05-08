@@ -6,6 +6,9 @@
             </span>
         </div>
         <div id="headerFunction">
+            <router-link to="/register">
+                <el-button type="primary">系统注册</el-button>
+            </router-link>
             <router-link to="/login">
                 <el-button type="primary">系统登录</el-button>
             </router-link>
